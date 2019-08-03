@@ -1,7 +1,7 @@
 # LinkedList
 单链表，增加，插入，删除，删除最后一个，查找，更改，for in遍历
 
-例如：
+例如：  
 var list = LinkedList<Int>()  
 list.append(1)  
 list.append(2)  
@@ -29,9 +29,9 @@ print("remove value:\(value2)")
 
 print("list: \(list)")  
 
-for item in list {
+for item in list {  
     print("item:\(item)")  
-}
+}  
 
 print("list.count:\(list.count)")  
 
