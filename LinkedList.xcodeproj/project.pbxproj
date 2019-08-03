@@ -14,6 +14,8 @@
 		A14ACEB822F0739C005247C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A14ACEB622F0739C005247C2 /* LaunchScreen.storyboard */; };
 		A14ACEC322F0739C005247C2 /* LinkedListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14ACEC222F0739C005247C2 /* LinkedListTests.swift */; };
 		A14ACECE22F0739C005247C2 /* LinkedListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14ACECD22F0739C005247C2 /* LinkedListUITests.swift */; };
+		A14ACEDE22F074E2005247C2 /* LinkedListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14ACEDD22F074E2005247C2 /* LinkedListNode.swift */; };
+		A14ACEE022F07EB5005247C2 /* LinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14ACEDF22F07EB5005247C2 /* LinkedList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		A14ACEC922F0739C005247C2 /* LinkedListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LinkedListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A14ACECD22F0739C005247C2 /* LinkedListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedListUITests.swift; sourceTree = "<group>"; };
 		A14ACECF22F0739C005247C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A14ACEDD22F074E2005247C2 /* LinkedListNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedListNode.swift; sourceTree = "<group>"; };
+		A14ACEDF22F07EB5005247C2 /* LinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				A14ACEB422F0739C005247C2 /* Assets.xcassets */,
 				A14ACEB622F0739C005247C2 /* LaunchScreen.storyboard */,
 				A14ACEB922F0739C005247C2 /* Info.plist */,
+				A14ACEDD22F074E2005247C2 /* LinkedListNode.swift */,
+				A14ACEDF22F07EB5005247C2 /* LinkedList.swift */,
 			);
 			path = LinkedList;
 			sourceTree = "<group>";
@@ -256,8 +262,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A14ACEDE22F074E2005247C2 /* LinkedListNode.swift in Sources */,
 				A14ACEB022F0739B005247C2 /* ViewController.swift in Sources */,
 				A14ACEAE22F0739B005247C2 /* AppDelegate.swift in Sources */,
+				A14ACEE022F07EB5005247C2 /* LinkedList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,6 +441,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KGB4YH8FC6;
 				INFOPLIST_FILE = LinkedList/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -450,6 +459,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KGB4YH8FC6;
 				INFOPLIST_FILE = LinkedList/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
