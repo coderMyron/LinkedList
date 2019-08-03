@@ -1,6 +1,13 @@
 # LinkedList
 单链表，增加，插入，删除，删除最后一个，查找，更改，for in遍历
 
+性能分析：  
+append()在最后面添加元素，时间复杂度O(1)
+insert(after:)在某个节点后面添加元素，时间复杂度O(1)
+removeLast()移除最后一个元素 O(n)，n是元素个数，因为要从头开始找才能找到最后一个元素，所以为O(n)
+remove(after:)移除某一节点后面的元素，时间复杂度O(1)
+node(at:)查找某个index对应的元素 O(i)，i是指index，因为要从头开始找，所以为O(i)
+
 例如：  
 var list = LinkedList<Int>()  
 list.append(1)  
